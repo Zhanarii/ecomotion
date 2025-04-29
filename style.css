@@ -5,3 +5,41 @@
     --secondary:#2d3239;
 }
 
+*{margin:0; padding:0; box-sizing:border-box;}
+
+li {list-style:none;}
+
+ul,ol {margin: 0; padding: 0;}
+
+p,li{
+    font-family: "Roboto",sans-serif;
+    font-size: 17px;
+    color: #363636;
+    line-height: 1.7
+}
+h1,h2,h3,h4,h5,h6{
+    color: #000;
+    line-height: 1.4;
+    font-weight: bold;
+    font-family: "Robot",sans-serif;
+    text-transform: capitalize;
+}
+a{
+    font-family: "kanit",sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    transition: .4s ease;
+}
+img{
+    max-width: 100%;
+    transition: .4s ease;
+}
+.pt-6{
+    padding-top: 70px;
+}
+.pt-6{
+    padding-bottom: 70px;
+}
+.container{
+    max-width: 1240px;
+}
