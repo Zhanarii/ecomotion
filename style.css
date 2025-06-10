@@ -31,7 +31,7 @@ a{
     transition: .4s ease;
 }
 img{
-    max-width: 100%;
+max-width: 100%;
     transition: .4s ease;
 }
 .pt-6{
@@ -74,4 +74,40 @@ nav .navbar-nav .navbar-link{
 }
 .shop-icon ul li a:hover {
     background-color: var(--secondary);
+}
+
+.hero-slider .slide{
+    background-size: cover;
+    background-position: center;
+    padding: 180px 0;
+    color: white;
+    height: 600px;
+}    
+
+.slide-content{ 
+    
+}
+
+.slide-text{
+    max-width: 700px;
+    text-align: left;
+}
+.slide-text h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.slide-text span{
+  color: var(--primary);
+}
+.slide-text p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 10px 25px;
+    background-color:  var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
