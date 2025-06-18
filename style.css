@@ -214,3 +214,39 @@ nav .navbar-nav .navbar-link{
 .title span{
     color: var(--primary)
 }
+
+.image-box{
+    position: relative;
+    margin-bottom:25px;
+    overflow: hidden;
+}
+
+.image-text a{
+    background-color: #000;
+    color:white;
+    padding: 6px 20px;
+    border-radius: 8px;
+}
+
+.image-text{
+    position: absolute;
+    top:0;
+    padding: 20px;
+}
+
+.image-box img:hover{
+    transform: scale(1.1);
+}
+
+.image-box img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-text h3{
+    color: var(--primary);
+    margin-bottom: 25px;
+
+}
