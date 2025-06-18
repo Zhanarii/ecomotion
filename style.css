@@ -84,9 +84,7 @@ nav .navbar-nav .navbar-link{
     height: 600px;
 }    
 
-.slide-content{ 
-    
-}
+
 
 .slide-text{
     max-width: 700px;
@@ -110,4 +108,109 @@ nav .navbar-nav .navbar-link{
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+}
+
+.slides{
+    text-align: center;
+}
+
+.slides img{
+    width: 165px;
+    border-radius:50% ;
+    height: 165px;
+    margin: auto;
+    object-fit: cover;
+}
+.slides .category-text{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 17px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.product-sec{
+    background-color: #f4f2f3;
+}
+
+.product-box{
+    position: relative;
+    overflow: hidden;
+    transition: .4s ease;
+    border-radius: 10px;
+}
+.pr-icon ul{
+    position: absolute;
+    top: 60%;
+    right: -43%;
+    transition: .4s ease;
+    transform: translateX(40px);
+    display: flex;
+}
+.product-box{
+    border: 1px solid #e7e7e7;
+    margin-bottom:25px;
+}
+
+.pr-icon ul li a{
+    width:40px;
+    height:40px;
+    display: grid;
+    place-content:center;
+    background-color: var(--primary);
+    color: white;
+    margin-top:10px;
+    border-radius:5px ;
+
+}
+
+.pr-icon ul li a:hover{
+    background-color: var(--secondry);
+
+}
+
+.product-box h5{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.pr-text{
+    text-align: center;
+}
+
+.pr-text h3{
+    font-size: 14px;
+}
+
+.pr-img{
+    overflow: hidden;
+}
+
+.product-box:hover img{
+   transform: scale(1.1);
+}
+.product-box:hover .pr-icon ul{
+    right: 20%;
+    transform: inherit;
+}
+.product-box{
+    background-color: white;
+}
+
+.product-box:hover .pr-icon ul li{
+    margin: 2px;
+}
+.title h6{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.title h2{
+    font-size:36px;
+    text-transform: capitalize;
+    color: var(--primary);
+}
+
+.title span{
+    color: var(--primary)
 }
