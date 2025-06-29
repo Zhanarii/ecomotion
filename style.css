@@ -110,8 +110,13 @@ nav .navbar-nav .navbar-link{
     font-weight: bold;
 }
 
+.slider-prodcts 
+{
+    background-color: #F9F8F9;
+}
 .slides{
     text-align: center;
+    
 }
 
 .slides img{
