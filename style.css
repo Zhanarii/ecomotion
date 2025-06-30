@@ -109,30 +109,35 @@ nav .navbar-nav .navbar-link{
     border-radius: 5px;
     font-weight: bold;
 }
-
 .slider-prodcts 
 {
     background-color: #F9F8F9;
+
 }
 .slides{
     text-align: center;
-    
+  
 }
 
 .slides img{
     width: 165px;
-    border-radius:50% ;
     height: 165px;
+    border-radius:50% ;
     margin: auto;
     object-fit: cover;
+    
+
 }
 .slides .category-text{
     font-size: 20px;
     font-weight: 400;
-    margin-top: 17px;
+    margin-top: 12px;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
+
+
+
 .product-sec{
     background-color: #f4f2f3;
 }
