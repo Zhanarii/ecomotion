@@ -9,16 +9,17 @@ $('.hero-slider').slick({
 });
 			
  //category slider
-$('.slider-category').slick({
-  dots: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 6,
-  slidesToScroll: 1,
-  arrows: false,
-});
 			
-
+if ($(window).width() > 768) {
+  $('.slider-category').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    arrows: false,
+  });
+}
 
 $('.testimonial-slider').slick({
   dots: false,

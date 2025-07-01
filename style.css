@@ -116,7 +116,19 @@ nav .navbar-nav .navbar-link{
 }
 .slides{
     text-align: center;
+     flex: 0 0 auto;
+    scroll-snap-align: start;
   
+}
+.slider-category {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+    padding: 0 20px;
+}
+.slider-category::-webkit-scrollbar {
+  display: none;
 }
 
 .slides img{
